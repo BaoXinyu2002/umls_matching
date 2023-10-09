@@ -53,5 +53,5 @@ echo "Finish selecting candidates."
 # Step6 Evalution
 echo "Evalute the mapping resutls."
 
-echo '8g'|python3 real_evaluate.py --entity_mapping $selection_result --reference_mapping $reference_mapping
+echo '8g'|python3 evaluate.py --entity_mapping $selection_result --reference_mapping $reference_mapping
 echo "finish evaluting results."
