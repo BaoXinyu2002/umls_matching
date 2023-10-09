@@ -1,0 +1,2000 @@
+Run the origial logmap system
+Time loading UMLS lexicon sources (s): 0.73
+Time initializing lexical utilities (s): 0.74
+OVERLAPPING
+Time loading ontology 1 (s): 13.919
+Time loading ontology 2 (s): 1.107
+Entities ontology 1: 15991
+Entities ontology 2: 8516
+Time extracting overlapping (s): 15.041
+
+CLASSES: 15762
+R82
+	  anatomic_structure_is_physical_part_of
+R82
+	  anatomic_structure_is_physical_part_of
+R82
+R82
+R82
+R82
+	  anatomic_structure_is_physical_part_of
+R82
+	  is physical part of
+R81
+	  anatomic_structure_has_location
+R81
+R81
+	  anatomic_structure_has_location
+R81
+R81
+	  has location
+R81
+	  anatomic_structure_has_location
+R81
+R156
+R156
+	  allele_absent_from_wild-type_chromosomal_location
+R156
+R156
+	  absent from wild-type chromosomal location
+R156
+	  allele_absent_from_wild-type_chromosomal_location
+R156
+R156
+	  allele_absent_from_wild-type_chromosomal_location
+R155
+	  in chromosomal location
+R155
+	  allele_in_chromosomal_location
+R155
+R155
+R155
+	  allele_in_chromosomal_location
+R155
+R155
+	  allele_in_chromosomal_location
+R153
+	  allele_has_abnormality
+R153
+R153
+R153
+	  has abnormality
+R153
+R153
+	  allele_has_abnormality
+R153
+	  allele_has_abnormality
+R150
+	  chemical_or_drug_affects_abnormal_cell
+R150
+	  chemical_or_drug_affects_abnormal_cell
+R150
+	  chemical_or_drug_affects_abnormal_cell
+R150
+R150
+R150
+R150
+	  affects abnormal cell
+R39
+R39
+R39
+	  gene_is_biomarker_of
+R39
+R38
+R38
+R38
+	  gene_associated_with_disease
+R38
+	  associated with disease
+R38
+	  gene_associated_with_disease
+R38
+R38
+	  gene_associated_with_disease
+R37
+	  gene_plays_role_in_process
+R37
+	  gene_plays_role_in_process
+R37
+R37
+	  gene_plays_role_in_process
+R37
+	  plays role in process
+R37
+R37
+R36
+	  gene_is_biomarker_type
+R36
+	  gene_is_biomarker_type
+R36
+R36
+	  is biomarker type
+R36
+	  gene_is_biomarker_type
+R36
+R36
+R35
+R35
+	  biological_process_is_part_of_process
+R35
+R35
+	  is part of process
+R35
+	  biological_process_is_part_of_process
+R35
+R35
+	  biological_process_is_part_of_process
+R34
+	  biological_process_has_result_biological_process
+R34
+R34
+	  biological_process_has_result_biological_process
+R34
+	  has result biological process
+R34
+	  biological_process_has_result_biological_process
+R34
+R34
+R32
+R32
+	  biological_process_has_initiator_chemical_or_drug
+R32
+	  biological_process_has_initiator_chemical_or_drug
+R32
+R32
+R32
+	  has initiator chemical or drug
+R32
+	  biological_process_has_initiator_chemical_or_drug
+R31
+R31
+	  biological_process_has_result_anatomy
+R31
+R31
+	  biological_process_has_result_anatomy
+R31
+	  has result anatomy
+R31
+R31
+	  biological_process_has_result_anatomy
+R30
+R30
+	  biological_process_has_associated_location
+R30
+R30
+	  biological_process_has_associated_location
+R30
+R30
+	  biological_process_has_associated_location
+R30
+	  has associated location
+R106
+R106
+	  disease_has_molecular_abnormality
+R106
+R106
+	  disease_has_molecular_abnormality
+R106
+	  has molecular abnormality
+R106
+	  disease_has_molecular_abnormality
+R106
+R105
+	  disease_has_abnormal_cell
+R105
+	  has abnormal cell
+R105
+	  disease_has_abnormal_cell
+R105
+R105
+R105
+R105
+	  disease_has_abnormal_cell
+R104
+	  disease_has_normal_cell_origin
+R104
+	  has normal cell origin
+R104
+R104
+	  disease_has_normal_cell_origin
+R104
+R104
+	  disease_has_normal_cell_origin
+R104
+R103
+	  disease_has_normal_tissue_origin
+R103
+	  disease_has_normal_tissue_origin
+R103
+R103
+	  has normal tissue origin
+R103
+R103
+R103
+R103
+	  disease_has_normal_tissue_origin
+R102
+	  disease_has_metastatic_anatomic_site
+R102
+R102
+R102
+R102
+	  disease_has_metastatic_anatomic_site
+R102
+	  has metastatic anatomic site
+R102
+R102
+	  disease_has_metastatic_anatomic_site
+R101
+	  disease_has_primary_anatomic_site
+R101
+R101
+	  disease_has_primary_anatomic_site
+R101
+R101
+	  disease_has_primary_anatomic_site
+R101
+R101
+	  has primary anatomic site
+R101
+R100
+	  disease_has_associated_anatomic_site
+R100
+R100
+	  disease_has_associated_anatomic_site
+R100
+R100
+	  has associated anatomic site
+R100
+R100
+	  disease_has_associated_anatomic_site
+R100
+R72
+R72
+R72
+R72
+	  chemical_or_drug_affects_cell_type_or_tissue
+R72
+	  affects cell type or tissue
+R72
+	  chemical_or_drug_affects_cell_type_or_tissue
+R72
+	  chemical_or_drug_affects_cell_type_or_tissue
+R146
+R146
+	  chemical_or_drug_affects_gene_product
+R146
+R146
+R146
+	  chemical_or_drug_affects_gene_product
+R146
+	  chemical_or_drug_affects_gene_product
+R146
+	  affects gene product
+R145
+R145
+	  gene_has_physical_location
+R145
+	  gene_has_physical_location
+R145
+R145
+R145
+R145
+	  gene_has_physical_location
+R145
+	  has physical location
+R88
+	  is stage
+R88
+R88
+R88
+	  disease_is_stage
+R88
+	  disease_is_stage
+R88
+	  disease_is_stage
+R88
+R141
+	  disease_excludes_cytogenetic_abnormality
+R141
+R141
+	  disease_excludes_cytogenetic_abnormality
+R141
+	  disease_excludes_cytogenetic_abnormality
+R141
+R141
+R141
+	  excludes cytogenetic abnormality
+R140
+	  disease_excludes_molecular_abnormality
+R140
+	  disease_excludes_molecular_abnormality
+R140
+	  excludes molecular abnormality
+R140
+R140
+	  disease_excludes_molecular_abnormality
+R140
+R140
+R29
+	  biological_process_has_result_chemical_or_drug
+R29
+	  biological_process_has_result_chemical_or_drug
+R29
+R29
+	  has result chemical or drug
+R29
+R29
+R29
+	  biological_process_has_result_chemical_or_drug
+R28
+	  has initiator process
+R28
+	  biological_process_has_initiator_process
+R28
+	  biological_process_has_initiator_process
+R28
+R28
+R28
+	  biological_process_has_initiator_process
+R28
+R27
+	  conceptual_part_of
+R27
+	  conceptual_part_of
+R27
+R27
+R27
+	  part of
+R27
+	  conceptual_part_of
+R27
+R26
+	  eo_disease_has_property_or_attribute
+R26
+R26
+R26
+	  eo_disease_has_property_or_attribute
+R26
+	  eo_disease_has_property_or_attribute
+R26
+R26
+	  has property or attribute
+R25
+	  eo_disease_has_associated_eo_anatomy
+R25
+	  eo_disease_has_associated_eo_anatomy
+R25
+R25
+	  eo_disease_has_associated_eo_anatomy
+R25
+R25
+R25
+	  has associated eo anatomy
+R24
+R24
+	  eo_disease_maps_to_human_disease
+R24
+R24
+	  maps to human disease
+R24
+R24
+	  eo_disease_maps_to_human_disease
+R24
+	  eo_disease_maps_to_human_disease
+R23
+	  has associated cell type
+R23
+R23
+R23
+	  eo_disease_has_associated_cell_type
+R23
+	  eo_disease_has_associated_cell_type
+R23
+R23
+	  eo_disease_has_associated_cell_type
+R182
+	  gene_product_variant_of_gene_product
+R182
+R182
+	  gene_product_variant_of_gene_product
+R182
+R182
+R182
+	  gene_product_variant_of_gene_product
+R181
+R181
+	  procedure_uses_manufactured_object
+R181
+R181
+	  procedure_uses_manufactured_object
+R181
+	  procedure_uses_manufactured_object
+R181
+R180
+	  procedure_has_target_disease
+R180
+R180
+R180
+	  procedure_has_target_disease
+R180
+	  procedure_has_target_disease
+R180
+R66
+	  chemical_or_drug_plays_role_in_biological_process
+R66
+R66
+R66
+R66
+	  chemical_or_drug_plays_role_in_biological_process
+R66
+	  chemical_or_drug_plays_role_in_biological_process
+R66
+R66
+	  plays role in biological process
+R139
+R139
+	  excludes abnormal cell
+R139
+R139
+	  disease_excludes_abnormal_cell
+R139
+	  disease_excludes_abnormal_cell
+R139
+R139
+	  disease_excludes_abnormal_cell
+R138
+	  excludes normal cell origin
+R138
+R138
+	  disease_excludes_normal_cell_origin
+R138
+R138
+	  disease_excludes_normal_cell_origin
+R138
+R138
+	  disease_excludes_normal_cell_origin
+R137
+R137
+	  disease_excludes_normal_tissue_origin
+R137
+R137
+	  excludes normal tissue origin
+R137
+R137
+	  disease_excludes_normal_tissue_origin
+R137
+	  disease_excludes_normal_tissue_origin
+R136
+	  disease_excludes_metastatic_anatomic_site
+R136
+R136
+R136
+	  excludes metastatic anatomic site
+R136
+R136
+	  disease_excludes_metastatic_anatomic_site
+R136
+	  disease_excludes_metastatic_anatomic_site
+R135
+	  disease_excludes_primary_anatomic_site
+R135
+R135
+R135
+	  disease_excludes_primary_anatomic_site
+R135
+	  disease_excludes_primary_anatomic_site
+R135
+R135
+	  excludes primary anatomic site
+R107
+R107
+	  disease_has_cytogenetic_abnormality
+R107
+R107
+	  disease_has_cytogenetic_abnormality
+R107
+R107
+	  has cytogenetic abnormality
+R107
+	  disease_has_cytogenetic_abnormality
+R142
+	  disease_excludes_finding
+R142
+R142
+R142
+	  excludes finding
+R142
+R142
+	  disease_excludes_finding
+R142
+	  disease_excludes_finding
+R132
+R132
+R132
+	  gene_has_abnormality
+R132
+	  has abnormality
+R132
+	  gene_has_abnormality
+R132
+R132
+	  gene_has_abnormality
+R131
+R131
+R131
+R131
+	  gene_product_is_element_in_pathway
+R131
+	  gene_product_is_element_in_pathway
+R131
+R131
+	  gene_product_is_element_in_pathway
+R131
+	  is element in pathway
+R130
+	  gene_is_element_in_pathway
+R130
+	  gene_is_element_in_pathway
+R130
+	  gene_is_element_in_pathway
+R130
+R130
+R130
+	  is element in pathway
+R130
+R130
+R133
+R133
+R133
+R133
+	  gene_product_has_abnormality
+R133
+	  has abnormality
+R133
+	  gene_product_has_abnormality
+R133
+	  gene_product_has_abnormality
+R179
+R179
+	  gene_product_sequence_variation_encoded_by_gene_mutant
+R179
+	  gene_product_sequence_variation_encoded_by_gene_mutant
+R179
+	  gene_product_sequence_variation_encoded_by_gene_mutant
+R179
+R179
+R178
+	  gene_mutant_encodes_gene_product_sequence_variation
+R178
+R178
+	  gene_mutant_encodes_gene_product_sequence_variation
+R178
+R178
+R178
+	  gene_mutant_encodes_gene_product_sequence_variation
+R177
+	  molecular_abnormality_involves_gene
+R177
+R177
+	  molecular_abnormality_involves_gene
+R177
+R177
+R177
+	  molecular_abnormality_involves_gene
+R176
+	  disease_mapped_to_gene
+R176
+R176
+R176
+	  disease_mapped_to_gene
+R176
+R176
+	  disease_mapped_to_gene
+R175
+R175
+R175
+	  gene_involved_in_pathogenesis_of_disease
+R175
+R175
+	  gene_involved_in_pathogenesis_of_disease
+R175
+	  gene_involved_in_pathogenesis_of_disease
+R174
+	  disease_mapped_to_chromosome
+R174
+R174
+R174
+R174
+	  disease_mapped_to_chromosome
+R174
+	  disease_mapped_to_chromosome
+R173
+R173
+	  cytogenetic_abnormality_involves_chromosome
+R173
+R173
+	  cytogenetic_abnormality_involves_chromosome
+R173
+R173
+	  cytogenetic_abnormality_involves_chromosome
+R172
+	  regimen_has_accepted_use_for_disease
+R172
+R172
+R172
+	  has accepted use for disease
+R172
+	  regimen_has_accepted_use_for_disease
+R172
+	  regimen_has_accepted_use_for_disease
+R172
+R171
+	  procedure_has_completely_excised_anatomy
+R171
+R171
+R171
+	  has completely excised anatomy
+R171
+	  procedure_has_completely_excised_anatomy
+R171
+R171
+	  procedure_has_completely_excised_anatomy
+R170
+R170
+	  procedure_may_have_completely_excised_anatomy
+R170
+	  procedure_may_have_completely_excised_anatomy
+R170
+R170
+	  may have completely excised anatomy
+R170
+	  procedure_may_have_completely_excised_anatomy
+R170
+R158
+R158
+	  allele_plays_altered_role_in_process
+R158
+R158
+R158
+	  allele_plays_altered_role_in_process
+R158
+	  plays altered role in process
+R158
+	  allele_plays_altered_role_in_process
+R54
+	  gene_product_encoded_by_gene
+R54
+R54
+R54
+	  encoded by gene
+R54
+	  gene_product_encoded_by_gene
+R54
+R54
+R54
+	  gene_product_encoded_by_gene
+R53
+	  gene_product_plays_role_in_biological_process
+R53
+R53
+	  gene_product_plays_role_in_biological_process
+R53
+R53
+R53
+R53
+	  plays role in biological process
+R53
+	  gene_product_plays_role_in_biological_process
+R52
+R52
+	  gene_product_has_biochemical_function
+R52
+	  gene_product_has_biochemical_function
+R52
+R52
+R52
+	  has biochemical function
+R52
+	  gene_product_has_biochemical_function
+R51
+	  gene_product_is_physical_part_of
+R51
+R51
+R51
+R51
+	  gene_product_is_physical_part_of
+R51
+	  is physical part of
+R51
+	  gene_product_is_physical_part_of
+R50
+R50
+R50
+	  has structural domain or motif
+R50
+R50
+	  gene_product_has_structural_domain_or_motif
+R50
+	  gene_product_has_structural_domain_or_motif
+R50
+R50
+	  gene_product_has_structural_domain_or_motif
+R126
+	  disease_has_associated_disease
+R126
+R126
+R126
+R126
+	  disease_has_associated_disease
+R126
+	  disease_has_associated_disease
+R126
+	  has associated disease
+R125
+	  has physiologic effect
+R125
+	  chemical_or_drug_has_physiologic_effect
+R125
+R125
+R125
+	  chemical_or_drug_has_physiologic_effect
+R125
+	  chemical_or_drug_has_physiologic_effect
+R125
+R124
+	  chemical_or_drug_has_mechanism_of_action
+R124
+	  chemical_or_drug_has_mechanism_of_action
+R124
+R124
+	  has mechanism of action
+R124
+R124
+R124
+	  chemical_or_drug_has_mechanism_of_action
+R123
+R123
+R123
+	  chemotherapy_regimen_has_component
+R123
+	  chemotherapy_regimen_has_component
+R123
+	  chemotherapy_regimen_has_component
+R123
+	  has component
+R123
+R122
+R122
+	  is metabolized by enzyme
+R122
+R122
+	  chemical_or_drug_is_metabolized_by_enzyme
+R122
+	  chemical_or_drug_is_metabolized_by_enzyme
+R122
+R122
+	  chemical_or_drug_is_metabolized_by_enzyme
+R169
+	  has partially excised anatomy
+R169
+R169
+R169
+	  procedure_has_partially_excised_anatomy
+R169
+	  procedure_has_partially_excised_anatomy
+R169
+R169
+	  procedure_has_partially_excised_anatomy
+R168
+R168
+	  procedure_may_have_partially_excised_anatomy
+R168
+R168
+R168
+	  may have partially excised anatomy
+R168
+	  procedure_may_have_partially_excised_anatomy
+R168
+	  procedure_may_have_partially_excised_anatomy
+R167
+R167
+R167
+R167
+	  has excised anatomy
+R167
+	  procedure_has_excised_anatomy
+R167
+	  procedure_has_excised_anatomy
+R167
+	  procedure_has_excised_anatomy
+R166
+	  may have excised anatomy
+R166
+	  procedure_may_have_excised_anatomy
+R166
+R166
+R166
+	  procedure_may_have_excised_anatomy
+R166
+R166
+	  procedure_may_have_excised_anatomy
+R165
+	  procedure_has_imaged_anatomy
+R165
+R165
+	  has imaged anatomy
+R165
+R165
+R165
+	  procedure_has_imaged_anatomy
+R165
+	  procedure_has_imaged_anatomy
+R108
+R108
+	  disease_has_finding
+R108
+R108
+	  disease_has_finding
+R108
+	  has finding
+R108
+R108
+	  disease_has_finding
+R159
+	  allele_has_activity
+R159
+R159
+R159
+R159
+	  has activity
+R159
+	  allele_has_activity
+R159
+	  allele_has_activity
+R160
+R160
+	  allele_plays_role_in_metabolism_of_chemical_or_drug
+R160
+R160
+	  allele_plays_role_in_metabolism_of_chemical_or_drug
+R160
+	  plays role in metabolism of chemical or drug
+R160
+	  allele_plays_role_in_metabolism_of_chemical_or_drug
+R160
+R163
+	  has target anatomy
+R163
+	  procedure_has_target_anatomy
+R163
+	  procedure_has_target_anatomy
+R163
+R163
+R163
+	  procedure_has_target_anatomy
+R163
+R49
+	  gene_product_expressed_in_tissue
+R49
+	  gene_product_expressed_in_tissue
+R49
+R49
+R49
+R49
+R49
+	  gene_product_expressed_in_tissue
+R49
+	  expressed in tissue
+R48
+	  gene_product_malfunction_associated_with_disease
+R48
+	  gene_product_malfunction_associated_with_disease
+R48
+R48
+R48
+	  malfunction associated with disease
+R48
+	  gene_product_malfunction_associated_with_disease
+R48
+R47
+	  gene_product_is_biomarker_of
+R47
+	  gene_product_is_biomarker_of
+R47
+	  gene_product_is_biomarker_of
+R47
+	  is biomarker of
+R47
+R47
+R47
+R47
+R46
+R46
+	  gene_product_has_associated_anatomy
+R46
+	  gene_product_has_associated_anatomy
+R46
+R46
+	  has associated anatomy
+R46
+R46
+	  gene_product_has_associated_anatomy
+R45
+R45
+R45
+	  gene_product_has_organism_source
+R45
+R45
+	  gene_product_has_organism_source
+R45
+	  has organism source
+R45
+	  gene_product_has_organism_source
+R44
+	  has chemical classification
+R44
+R44
+	  gene_product_has_chemical_classification
+R44
+R44
+	  gene_product_has_chemical_classification
+R44
+R44
+	  gene_product_has_chemical_classification
+R44
+R113
+R113
+	  disease_may_have_abnormal_cell
+R113
+	  disease_may_have_abnormal_cell
+R113
+R113
+R113
+	  may have abnormal cell
+R113
+	  disease_may_have_abnormal_cell
+R42
+	  gene_product_is_biomarker_type
+R42
+R42
+R42
+	  is biomarker type
+R42
+	  gene_product_is_biomarker_type
+R42
+	  gene_product_is_biomarker_type
+R42
+R41
+R41
+R41
+	  gene_found_in_organism
+R41
+	  found in organism
+R41
+R41
+R41
+	  gene_found_in_organism
+R41
+	  gene_found_in_organism
+R40
+	  in chromosomal location
+R40
+R40
+R40
+	  gene_in_chromosomal_location
+R40
+	  gene_in_chromosomal_location
+R40
+R40
+	  gene_in_chromosomal_location
+R116
+R116
+	  may have associated disease
+R116
+R116
+	  disease_may_have_associated_disease
+R116
+	  disease_may_have_associated_disease
+R116
+R116
+	  disease_may_have_associated_disease
+R115
+	  disease_may_have_finding
+R115
+R115
+	  disease_may_have_finding
+R115
+R115
+	  may have finding
+R115
+R115
+	  disease_may_have_finding
+R114
+R114
+	  disease_may_have_cytogenetic_abnormality
+R114
+R114
+	  disease_may_have_cytogenetic_abnormality
+R114
+	  may have cytogenetic abnormality
+R114
+R114
+	  disease_may_have_cytogenetic_abnormality
+R89
+	  may have molecular abnormality
+R89
+R89
+	  disease_may_have_molecular_abnormality
+R89
+R89
+	  disease_may_have_molecular_abnormality
+R89
+R89
+	  disease_may_have_molecular_abnormality
+R112
+	  disease_may_have_normal_cell_origin
+R112
+	  disease_may_have_normal_cell_origin
+R112
+R112
+	  may have normal cell origin
+R112
+	  disease_may_have_normal_cell_origin
+R112
+R112
+R111
+	  disease_may_have_normal_tissue_origin
+R111
+	  disease_may_have_normal_tissue_origin
+R111
+	  may have normal tissue origin
+R111
+R111
+R111
+R111
+	  disease_may_have_normal_tissue_origin
+R110
+	  disease_is_grade
+R110
+	  is grade
+R110
+R110
+	  disease_is_grade
+R110
+	  disease_is_grade
+R110
+R110
+NUMBER OF DUMMY INDIVIDUALS: 0
+MAX SIZE ANNOTATIONS: 0
+MIN SIZE ANNOTATIONS: 5000
+Number of classes/labels: 15762
+	Number of labels + syn: 60270
+	Cases with huge combination of synonyms: 3
+	Number of entries inverted file (exact): 47948
+Number of dProp: 0
+	Number of dProp inverted file: 0
+Number of oProp: 97
+	Number of oProp inverted file: 97
+Number of Indiv: 0
+	Number of Indiv inverted file: 0
+	Number of Indiv weak inverted file: 0
+	Number of Indiv Role assertions inverted file: 0
+Time setting labels and inverted files (s): 3.244
+
+CLASSES: 8465
+inheres_in
+inheres_in
+inheres_in
+	  inheres_in
+complicated_by
+complicated_by
+	  complicated_by
+complicated_by
+located_in
+located_in
+	  located_in
+located_in
+realized_by
+realized_by
+	  realized_by
+realized_by
+realized_by_supression_with
+	  realized_by_supression_with
+realized_by_supression_with
+realized_by_supression_with
+transmitted_by
+transmitted_by
+	  transmitted_by
+transmitted_by
+part_of
+part_of
+	  part_of
+part_of
+composed_of
+	  composed_of
+composed_of
+composed_of
+derives_from
+	  derives_from
+derives_from
+derives_from
+results_in
+results_in
+	  results_in
+results_in
+results_in_formation_of
+	  results_in_formation_of
+results_in_formation_of
+results_in_formation_of
+has_symptom
+has_symptom
+	  has_symptom
+has_symptom
+has_material_basis_in
+has_material_basis_in
+	  has_material_basis_in
+has_material_basis_in
+occurs_with
+occurs_with
+	  occurs_with
+occurs_with
+is_a
+is_a
+	  is_a
+is_a
+NUMBER OF DUMMY INDIVIDUALS: 0
+MAX SIZE ANNOTATIONS: 0
+MIN SIZE ANNOTATIONS: 5000
+Number of classes/labels: 24227
+	Number of labels + syn: 20767
+	Cases with huge combination of synonyms: 1
+	Number of entries inverted file (exact): 20422
+Number of dProp: 0
+	Number of dProp inverted file: 0
+Number of oProp: 112
+	Number of oProp inverted file: 15
+Number of Indiv: 0
+	Number of Indiv inverted file: 0
+	Number of Indiv weak inverted file: 0
+	Number of Indiv Role assertions inverted file: 0
+Time setting labels and inverted files (s): 0.904
+Time extracting lexicon and IF (s): 4.154
+IF Exact 1: 47948
+IF Exact 2: 20422
+Intersection IF Exact: 5458
+IF Stemming 1: 37440
+IF Stemming 2: 17131
+Intersection IF Stemming: 5097
+Entries in Weak IF from Setemming: 32343
+Entries in Weak IF from Setemming: 12034
+IF Weak 1: 125672
+IF Weak 2: 43341
+Intersection IF Weak: 10542
+Time intersecting IF and extracting IF weak (s): 0.684
+Ontology with datatypes. Using 'ELK' reasoner instead.
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl NOT in OWL 2 EL profile. Using structural reasoner.
+Representatives (aggregated): 0
+Disjoint: 18
+Equivalences: 0
+Big nodes: 0
+->General HORN Axioms: 2867
+Extracting General Axioms: 0.074
+Ontology with datatypes. Using 'ELK' reasoner instead.
+Optional.of(http://purl.obolibrary.org/obo/doid.owl) in OWL 2 EL profile. Using ELK reasoner.
+
+Classifying 'ALC' Ontology with ELK... 
+Done, Time (s): 0.408
+
+Representatives (aggregated): 0
+Disjoint: 48
+Equivalences: 0
+Big nodes: 0
+->General HORN Axioms: 2867
+Extracting General Axioms: 0.027
+Time extracting structural information (s): 5.704
+WEAK ANCHORS: 253453
+Time creating all weak anchors (s): 0.13
+NullPointerException   [myelodysplasticmyeloprol]
+Time creating candidate subset of weak anchors (s): 2.892
+Time Parsing and Index Lexicon (s): 2.905
+
+ANCHOR DIAGNOSIS 
+Time creating anchors (s): 3.861
+
+Num Anchors: 3719
+
+
+
+COUNT SAT ALL ONTOLOGY
+-------------------------
+TAX clause num: 32874
+Equiv clause num: 32874
+D&G DISJ clause num: 33051
+D&G general axioms clause num: 35918
+D&G mappings clause num: 43356
+D&G mapping links: 7438  0
+D&G mappings clause num: 43356
+D&G mapping links: 0  0
+	UNSATifiabilities found with Dowling and Gallier (approximation): 565
+509 -> 20730 (0) (36265), conflict: 1
+7455 -> 17787 (0) (40924), conflict: 2
+7455 <- 17787 (0) (36883), conflict: 1
+6869 -> 19347 (0) (40477), conflict: 6
+4218 <- 16922 (0) (36280), conflict: 1
+4218 -> 16922 (0) (38800), conflict: 1
+509 <- 20730 (0) (38888), conflict: 1
+11134 -> 17040 (0) (41966), conflict: 1
+11209 <- 18905 (0) (37613), conflict: 1
+11134 <- 17040 (0) (36358), conflict: 1
+909 -> 16611 (0) (36524), conflict: 3
+11209 -> 18905 (0) (41975), conflict: 3
+10443 <- 17897 (0) (36943), conflict: 1
+14571 <- 22741 (0) (40135), conflict: 1
+97 -> 20885 (0) (35979), conflict: 1
+97 <- 20885 (0) (38995), conflict: 1
+13792 <- 16496 (0) (35990), conflict: 6
+10443 -> 17897 (0) (41770), conflict: 1
+13757 <- 23434 (0) (40611), conflict: 7
+15315 -> 17058 (0) (42962), conflict: 2
+15660 <- 18087 (0) (37065), conflict: 1
+15660 -> 18087 (0) (43049), conflict: 1
+4539 <- 15883 (0) (43151), conflict: 4
+13757 -> 23434 (0) (42592), conflict: 2
+10402 <- 21327 (0) (39270), conflict: 1
+10402 -> 21327 (0) (41762), conflict: 1
+9761 -> 17635 (0) (41604), conflict: 1
+9761 <- 17635 (0) (36777), conflict: 1
+10271 <- 20857 (0) (38975), conflict: 19
+10271 -> 20857 (0) (41728), conflict: 56
+15632 -> 16504 (0) (43039), conflict: 1
+7800 <- 23846 (0) (40930), conflict: 1
+15632 <- 16504 (0) (35997), conflict: 1
+14444 -> 19033 (0) (42789), conflict: 1
+15223 -> 19930 (0) (42929), conflict: 3
+7503 <- 16438 (0) (35948), conflict: 1
+15223 <- 19930 (0) (38314), conflict: 14
+15633 -> 16275 (0) (43040), conflict: 1
+2924 -> 23085 (0) (37889), conflict: 11
+15633 <- 16275 (0) (43314), conflict: 9
+7503 -> 16438 (0) (40950), conflict: 1
+9752 <- 23328 (0) (40526), conflict: 7
+9752 -> 23328 (0) (41600), conflict: 5
+12814 <- 19240 (0) (37853), conflict: 1
+12795 -> 22930 (0) (42356), conflict: 1
+13909 -> 20616 (0) (42639), conflict: 1
+531 <- 17546 (0) (36722), conflict: 5
+12814 -> 19240 (0) (42359), conflict: 2
+9031 -> 17652 (0) (41439), conflict: 1
+531 -> 17546 (0) (36278), conflict: 1
+12795 <- 22930 (0) (40230), conflict: 2
+9031 <- 17652 (0) (36785), conflict: 1
+11642 -> 18705 (0) (42063), conflict: 1
+3088 -> 17655 (0) (37993), conflict: 4
+3088 <- 17655 (0) (36787), conflict: 1
+11642 <- 18705 (0) (37479), conflict: 2
+10656 <- 19357 (0) (37917), conflict: 1
+7800 -> 23846 (0) (41162), conflict: 1
+10656 -> 19357 (0) (41826), conflict: 1
+11340 -> 20557 (0) (41996), conflict: 2
+11340 <- 20557 (0) (38784), conflict: 3
+34 -> 20744 (0) (35937), conflict: 1
+396 -> 21975 (0) (36178), conflict: 1
+34 <- 20744 (0) (38894), conflict: 1
+396 <- 21975 (0) (39680), conflict: 1
+8777 -> 18648 (0) (41400), conflict: 14
+8777 <- 18648 (0) (37431), conflict: 21
+2249 <- 22406 (0) (39976), conflict: 1
+2308 <- 21984 (0) (39688), conflict: 1
+3573 <- 20664 (0) (38841), conflict: 2
+3145 -> 22964 (0) (38036), conflict: 1
+3573 -> 20664 (0) (38326), conflict: 1
+2308 -> 21984 (0) (37473), conflict: 1
+7602 <- 15763 (0) (43083), conflict: 1
+7602 -> 15763 (0) (41025), conflict: 1
+9043 <- 23770 (0) (40881), conflict: 11
+5237 <- 17155 (0) (36434), conflict: 6
+9043 -> 23770 (0) (41442), conflict: 5
+10536 <- 20460 (0) (38730), conflict: 1
+5237 -> 17155 (0) (39481), conflict: 10
+14629 -> 19020 (0) (42831), conflict: 1
+13213 -> 18480 (0) (42485), conflict: 1
+14629 <- 19020 (0) (37704), conflict: 4
+13213 <- 18480 (0) (37310), conflict: 1
+10536 -> 20460 (0) (41802), conflict: 1
+2249 -> 22406 (0) (37416), conflict: 1
+15612 -> 22953 (0) (43033), conflict: 1
+15612 <- 22953 (0) (40250), conflict: 1
+5653 -> 18642 (0) (39734), conflict: 20
+14570 -> 22184 (0) (42822), conflict: 1
+5653 <- 18642 (0) (37424), conflict: 4
+4572 <- 22821 (0) (40183), conflict: 6
+4572 -> 22821 (0) (39045), conflict: 9
+4588 <- 16641 (0) (36098), conflict: 1
+4588 -> 16641 (0) (39050), conflict: 1
+7507 -> 23399 (0) (40955), conflict: 1
+7507 <- 23399 (0) (40585), conflict: 1
+14318 <- 19770 (0) (38216), conflict: 1
+2898 -> 19874 (0) (37875), conflict: 5
+2465 -> 22132 (0) (37567), conflict: 2
+373 <- 16351 (0) (43343), conflict: 1
+373 -> 16351 (0) (36160), conflict: 1
+13337 <- 23769 (0) (40880), conflict: 107
+2898 <- 19874 (0) (38289), conflict: 1
+14318 -> 19770 (0) (42738), conflict: 1
+13337 -> 23769 (0) (42515), conflict: 1
+137 -> 16582 (0) (36008), conflict: 1
+1300 -> 17424 (0) (36806), conflict: 1
+1300 <- 17424 (0) (36634), conflict: 1
+13491 -> 17946 (0) (42531), conflict: 2
+10441 <- 23398 (0) (40584), conflict: 1
+5663 <- 19165 (0) (37810), conflict: 1
+10067 -> 17908 (0) (41670), conflict: 6
+10441 -> 23398 (0) (41769), conflict: 2
+8633 <- 22938 (0) (40236), conflict: 76
+3783 -> 24192 (0) (38475), conflict: 2
+5620 -> 23533 (0) (39702), conflict: 4
+5620 <- 23533 (0) (40677), conflict: 1
+2963 <- 17453 (0) (36652), conflict: 1
+7522 -> 23797 (0) (40961), conflict: 2
+7522 <- 23797 (0) (40896), conflict: 3
+2963 -> 17453 (0) (37908), conflict: 1
+8633 -> 22938 (0) (41368), conflict: 32
+4872 <- 21354 (0) (39295), conflict: 1
+4872 -> 21354 (0) (39217), conflict: 1
+2987 <- 18623 (0) (37405), conflict: 2
+11671 <- 18072 (0) (37052), conflict: 1
+2987 -> 18623 (0) (37924), conflict: 17
+11671 -> 18072 (0) (42073), conflict: 1
+7621 <- 23572 (0) (40710), conflict: 1
+7621 -> 23572 (0) (41044), conflict: 1
+889 -> 16570 (0) (36511), conflict: 6
+13503 <- 22957 (0) (40252), conflict: 1
+6639 <- 20282 (0) (38595), conflict: 9
+3171 -> 16984 (0) (38059), conflict: 12
+5677 <- 18662 (0) (37451), conflict: 1
+6639 -> 20282 (0) (40323), conflict: 22
+3171 <- 16984 (0) (36319), conflict: 23
+6288 -> 20716 (0) (40104), conflict: 1
+4538 -> 16938 (0) (39020), conflict: 1
+6288 <- 20716 (0) (38880), conflict: 1
+8921 -> 20045 (0) (41419), conflict: 1
+13862 -> 18296 (0) (42623), conflict: 1
+4178 -> 15878 (0) (38786), conflict: 29
+8921 <- 20045 (0) (38378), conflict: 1
+11215 <- 16101 (0) (43235), conflict: 1
+13862 <- 18296 (0) (37190), conflict: 1
+11215 -> 16101 (0) (41978), conflict: 1
+374 -> 20228 (0) (36163), conflict: 1
+13222 <- 17712 (0) (36827), conflict: 1
+10727 -> 17778 (0) (41843), conflict: 1
+13222 -> 17712 (0) (42491), conflict: 1
+374 <- 20228 (0) (38539), conflict: 1
+15613 <- 19068 (0) (37737), conflict: 1
+10875 -> 19490 (0) (41894), conflict: 19
+10727 <- 17778 (0) (36878), conflict: 1
+15634 <- 19443 (0) (37971), conflict: 1
+15634 -> 19443 (0) (43041), conflict: 1
+15613 -> 19068 (0) (43034), conflict: 1
+372 <- 22541 (0) (40045), conflict: 1
+1384 -> 17943 (0) (36868), conflict: 1
+372 -> 22541 (0) (36159), conflict: 1
+6637 <- 18635 (0) (37420), conflict: 1
+6720 -> 17052 (0) (40401), conflict: 2
+5879 -> 22922 (0) (39892), conflict: 1
+15031 <- 18387 (0) (37256), conflict: 1
+15031 -> 18387 (0) (42886), conflict: 1
+5879 <- 22922 (0) (40223), conflict: 1
+14438 -> 22151 (0) (42786), conflict: 1
+14538 -> 18412 (0) (42814), conflict: 1
+5258 -> 15877 (0) (39497), conflict: 29
+12388 -> 20374 (0) (42246), conflict: 1
+375 <- 21978 (0) (39683), conflict: 1
+12388 <- 20374 (0) (38688), conflict: 1
+1949 -> 21213 (0) (37213), conflict: 1
+375 -> 21978 (0) (36165), conflict: 1
+1949 <- 21213 (0) (39196), conflict: 1
+428 <- 17896 (0) (36942), conflict: 1
+428 -> 17896 (0) (36208), conflict: 1
+2970 -> 23667 (0) (37914), conflict: 6
+13091 -> 24119 (0) (42446), conflict: 1
+10279 -> 20743 (0) (41729), conflict: 1
+10279 <- 20743 (0) (38893), conflict: 12
+13091 <- 24119 (0) (41127), conflict: 1
+2970 <- 23667 (0) (40793), conflict: 1
+10653 <- 17250 (0) (36497), conflict: 1
+322 <- 20511 (0) (38754), conflict: 3
+10653 -> 17250 (0) (41824), conflict: 1
+7083 -> 16168 (0) (40629), conflict: 1
+1672 <- 23216 (0) (40453), conflict: 5
+7083 <- 16168 (0) (43270), conflict: 1
+15653 <- 20368 (0) (38681), conflict: 4
+15161 <- 19633 (0) (38126), conflict: 2
+15161 -> 19633 (0) (42916), conflict: 2
+1019 -> 21932 (0) (36615), conflict: 1
+1019 <- 21932 (0) (39655), conflict: 1
+1973 <- 16587 (0) (36068), conflict: 3
+15628 <- 24150 (0) (41141), conflict: 1
+15653 -> 20368 (0) (43047), conflict: 1
+15628 -> 24150 (0) (43037), conflict: 1
+15212 <- 19612 (0) (38110), conflict: 9
+2217 -> 17703 (0) (37386), conflict: 96
+15212 -> 19612 (0) (42925), conflict: 7
+8816 <- 20527 (0) (38762), conflict: 1
+13694 <- 17881 (0) (36937), conflict: 19
+13694 -> 17881 (0) (42573), conflict: 3
+8816 -> 20527 (0) (41404), conflict: 1
+15652 -> 19528 (0) (43046), conflict: 1
+1491 <- 18658 (0) (37444), conflict: 1
+15652 <- 19528 (0) (38035), conflict: 1
+15645 <- 22724 (0) (40126), conflict: 1
+15645 -> 22724 (0) (43044), conflict: 1
+1491 -> 18658 (0) (36932), conflict: 1
+11694 <- 19314 (0) (37892), conflict: 4
+4590 -> 16640 (0) (39054), conflict: 1
+12917 -> 19256 (0) (42382), conflict: 2
+13441 <- 20842 (0) (38957), conflict: 2
+12917 <- 19256 (0) (37859), conflict: 4
+4590 <- 16640 (0) (36097), conflict: 1
+11694 -> 19314 (0) (42088), conflict: 1
+12421 -> 15923 (0) (42257), conflict: 1
+12421 <- 15923 (0) (43174), conflict: 89
+526 <- 17547 (0) (36723), conflict: 1
+526 -> 17547 (0) (36273), conflict: 1
+9610 <- 20012 (0) (38361), conflict: 1
+10660 -> 21780 (0) (41827), conflict: 1
+395 <- 21980 (0) (39685), conflict: 1
+395 -> 21980 (0) (36177), conflict: 1
+10660 <- 21780 (0) (39583), conflict: 1
+397 -> 21977 (0) (36179), conflict: 1
+397 <- 21977 (0) (39682), conflict: 1
+15608 -> 22839 (0) (43032), conflict: 1
+6996 -> 23107 (0) (40575), conflict: 1
+6996 <- 23107 (0) (40405), conflict: 1
+15608 <- 22839 (0) (40193), conflict: 1
+8288 -> 23284 (0) (41295), conflict: 1
+8288 <- 23284 (0) (40500), conflict: 1
+13081 -> 23682 (0) (42442), conflict: 1
+13081 <- 23682 (0) (40804), conflict: 1
+7504 <- 20356 (0) (38664), conflict: 1
+13054 <- 18021 (0) (37025), conflict: 2
+7504 -> 20356 (0) (40951), conflict: 1
+5738 -> 23309 (0) (39792), conflict: 1
+5738 <- 23309 (0) (40515), conflict: 4
+13054 -> 18021 (0) (42431), conflict: 1
+8259 <- 21429 (0) (39353), conflict: 5
+10901 <- 16037 (0) (43212), conflict: 1
+76 <- 17784 (0) (36881), conflict: 1
+10901 -> 16037 (0) (41898), conflict: 1
+8259 -> 21429 (0) (41289), conflict: 1
+76 -> 17784 (0) (35964), conflict: 1
+13036 -> 21863 (0) (42423), conflict: 1
+13036 <- 21863 (0) (39623), conflict: 1
+11585 <- 18528 (0) (37340), conflict: 1
+11585 -> 18528 (0) (42038), conflict: 2
+11593 <- 22199 (0) (39845), conflict: 441
+5721 <- 17966 (0) (36994), conflict: 1
+12927 <- 16828 (0) (36215), conflict: 5
+12927 -> 16828 (0) (42385), conflict: 1
+13868 -> 21652 (0) (42627), conflict: 1
+507 <- 23548 (0) (40686), conflict: 1
+507 -> 23548 (0) (36263), conflict: 1
+13868 <- 21652 (0) (39502), conflict: 1
+32 -> 15827 (0) (35935), conflict: 2
+14384 -> 22056 (0) (42764), conflict: 1
+32 <- 15827 (0) (43117), conflict: 1
+10774 -> 18386 (0) (41855), conflict: 2
+15565 -> 18002 (0) (43021), conflict: 1
+14384 <- 22056 (0) (39749), conflict: 1
+866 -> 22950 (0) (36496), conflict: 5
+13167 <- 20024 (0) (38367), conflict: 1
+15565 <- 18002 (0) (37016), conflict: 1
+10774 <- 18386 (0) (37255), conflict: 2
+13167 -> 20024 (0) (42479), conflict: 1
+13160 -> 24104 (0) (42473), conflict: 1
+9899 <- 18682 (0) (37467), conflict: 1
+1273 -> 18074 (0) (36789), conflict: 1
+13160 <- 24104 (0) (41115), conflict: 3
+1273 <- 18074 (0) (37053), conflict: 1
+9899 -> 18682 (0) (41642), conflict: 1
+530 <- 22104 (0) (39780), conflict: 1
+7637 <- 23157 (0) (40429), conflict: 1
+7637 -> 23157 (0) (41056), conflict: 1
+4524 -> 22728 (0) (39010), conflict: 96
+530 -> 22104 (0) (36277), conflict: 1
+4203 <- 18990 (0) (37683), conflict: 7
+3593 <- 20642 (0) (38826), conflict: 1
+3593 -> 20642 (0) (38334), conflict: 1
+12074 -> 17025 (0) (42166), conflict: 1
+12074 <- 17025 (0) (36349), conflict: 1
+5283 -> 17229 (0) (39511), conflict: 26
+5283 <- 17229 (0) (36483), conflict: 55
+4203 -> 18990 (0) (38795), conflict: 1
+15173 -> 16312 (0) (42920), conflict: 1
+15635 <- 20154 (0) (38462), conflict: 1
+15173 <- 16312 (0) (43332), conflict: 1
+15635 -> 20154 (0) (43042), conflict: 1
+13881 <- 16493 (0) (35986), conflict: 5
+7864 <- 16189 (0) (43278), conflict: 1
+7864 -> 16189 (0) (41187), conflict: 1
+14276 <- 22378 (0) (39962), conflict: 1
+13728 <- 17604 (0) (36757), conflict: 4
+13728 -> 17604 (0) (42581), conflict: 4
+8250 <- 20597 (0) (38798), conflict: 1
+8250 -> 20597 (0) (41287), conflict: 1
+10186 -> 18744 (0) (41707), conflict: 2
+7916 <- 16433 (0) (35941), conflict: 1
+7456 -> 19427 (0) (40925), conflict: 8
+7456 <- 19427 (0) (37960), conflict: 13
+15583 -> 19636 (0) (43025), conflict: 1
+7916 -> 16433 (0) (41202), conflict: 1
+15583 <- 19636 (0) (38131), conflict: 1
+10186 <- 18744 (0) (37497), conflict: 2
+14276 -> 22378 (0) (42726), conflict: 1
+508 -> 20729 (0) (36264), conflict: 1
+508 <- 20729 (0) (38887), conflict: 1
+371 -> 21412 (0) (36158), conflict: 1
+7753 -> 24006 (0) (41134), conflict: 2
+908 -> 16797 (0) (36523), conflict: 19
+371 <- 21412 (0) (39345), conflict: 1
+5462 -> 17636 (0) (39620), conflict: 4
+9690 -> 18283 (0) (41578), conflict: 2
+9690 <- 18283 (0) (37178), conflict: 3
+14461 <- 22754 (0) (40142), conflict: 2
+11499 -> 24156 (0) (42019), conflict: 3
+14461 -> 22754 (0) (42792), conflict: 1
+7753 <- 24006 (0) (41045), conflict: 1
+5169 <- 19173 (0) (37815), conflict: 1
+5169 -> 19173 (0) (39437), conflict: 1
+5135 -> 16439 (0) (39408), conflict: 19
+11672 -> 19658 (0) (42074), conflict: 1
+14366 -> 16893 (0) (42756), conflict: 2
+14366 <- 16893 (0) (36266), conflict: 1
+6901 -> 23436 (0) (40501), conflict: 1
+6901 <- 23436 (0) (40612), conflict: 1
+9471 -> 16861 (0) (41517), conflict: 1
+9471 <- 16861 (0) (36243), conflict: 1
+6600 -> 23092 (0) (40278), conflict: 2
+2109 <- 20351 (0) (38660), conflict: 121
+2109 -> 20351 (0) (37316), conflict: 3
+11672 <- 19658 (0) (38150), conflict: 1
+1657 <- 20453 (0) (38729), conflict: 1
+1657 -> 20453 (0) (37034), conflict: 1
+367 -> 21507 (0) (36154), conflict: 1
+367 <- 21507 (0) (39398), conflict: 1
+13761 -> 22055 (0) (42595), conflict: 2
+9607 -> 15928 (0) (41546), conflict: 1
+9607 <- 15928 (0) (43177), conflict: 1
+10072 <- 15871 (0) (43145), conflict: 3
+459 -> 20808 (0) (36229), conflict: 1
+459 <- 20808 (0) (38934), conflict: 3
+10779 <- 19245 (0) (37854), conflict: 3
+10779 -> 19245 (0) (41858), conflict: 1
+7414 -> 18053 (0) (40897), conflict: 1
+7414 <- 18053 (0) (37039), conflict: 1
+15646 <- 18144 (0) (37089), conflict: 1
+10227 -> 20722 (0) (41719), conflict: 1
+4976 -> 18993 (0) (39301), conflict: 1
+15646 -> 18144 (0) (43045), conflict: 1
+15654 -> 23955 (0) (43048), conflict: 1
+12942 -> 22940 (0) (42387), conflict: 4
+15654 <- 23955 (0) (40999), conflict: 4
+4976 <- 18993 (0) (37684), conflict: 1
+5256 -> 20404 (0) (39494), conflict: 1
+9728 -> 19355 (0) (41590), conflict: 1
+9728 <- 19355 (0) (37915), conflict: 1
+15629 -> 19504 (0) (43038), conflict: 1
+15629 <- 19504 (0) (38019), conflict: 1
+10227 <- 20722 (0) (38884), conflict: 7
+14122 -> 21771 (0) (42702), conflict: 1
+7554 -> 23815 (0) (40989), conflict: 1
+14122 <- 21771 (0) (39573), conflict: 1
+7554 <- 23815 (0) (40906), conflict: 1
+25 <- 18505 (0) (37325), conflict: 52
+25 -> 18505 (0) (35930), conflict: 20
+9719 <- 20372 (0) (38685), conflict: 1
+9719 -> 20372 (0) (41588), conflict: 1
+12440 -> 23547 (0) (42265), conflict: 1
+12440 <- 23547 (0) (40685), conflict: 1
+11862 -> 18046 (0) (42140), conflict: 1
+13907 <- 17795 (0) (36885), conflict: 1
+11862 <- 18046 (0) (37036), conflict: 1
+13907 -> 17795 (0) (42637), conflict: 1
+2935 -> 19954 (0) (37894), conflict: 1
+2935 <- 19954 (0) (38324), conflict: 1
+6896 <- 17504 (0) (36694), conflict: 1
+4789 <- 17289 (0) (36521), conflict: 1
+6896 -> 17504 (0) (40495), conflict: 1
+4789 -> 17289 (0) (39177), conflict: 1
+14402 <- 22956 (0) (40251), conflict: 4
+14566 <- 23536 (0) (40679), conflict: 1
+4866 -> 20051 (0) (39213), conflict: 6
+9682 <- 23665 (0) (40792), conflict: 1
+14566 -> 23536 (0) (42821), conflict: 1
+9682 -> 23665 (0) (41576), conflict: 1
+1602 <- 21307 (0) (39252), conflict: 3
+1602 -> 21307 (0) (37005), conflict: 1
+10610 <- 24089 (0) (41102), conflict: 1
+10610 -> 24089 (0) (41815), conflict: 1
+Time checking satisfiability D&G (s): 2.947
+
+
+SMALL PROJECTION
+-------------------------
+Size projection: 9583
+TAX clause num: 23200
+Equiv clause num: 23200
+D&G DISJ clause num: 23377
+D&G general axioms clause num: 26244
+D&G mappings clause num: 33682
+D&G mapping links: 7438  0
+D&G mappings clause num: 33682
+D&G mapping links: 0  0
+PLANS of size 1 for entity 22813: 3
+Evaluating plan of size: 1, conflict: 441, confidence: 0.803
+Plan found!
+	4538 <- 16938 (0) (26619) without conflictness
+PLANS of size 1 for entity 19874: 7
+Evaluating plan of size: 1, conflict: 121, confidence: 0.7629999999999999
+Evaluating plan of size: 1, conflict: 107, confidence: 0.7330000000000001
+Plan found!
+PLANS of size 1 for entity 19612: 3
+Evaluating plan of size: 1, conflict: 121, confidence: 0.7629999999999999
+Evaluating plan of size: 1, conflict: 19, confidence: 0.8799999999999999
+Evaluating plan of size: 1, conflict: 9, confidence: 0.9219999999999999
+Plan found!
+PLANS of size 1 for entity 15212: 3
+Evaluating plan of size: 1, conflict: 121, confidence: 0.7629999999999999
+Evaluating plan of size: 1, conflict: 19, confidence: 0.8799999999999999
+Evaluating plan of size: 1, conflict: 7, confidence: 0.9219999999999999
+Plan found!
+PLANS of size 1 for entity 13337: 4
+Evaluating plan of size: 1, conflict: 121, confidence: 0.7629999999999999
+Evaluating plan of size: 1, conflict: 76, confidence: 0.9159999999999999
+Evaluating plan of size: 1, conflict: 52, confidence: 0.953
+Evaluating plan of size: 1, conflict: 1, confidence: 0.7330000000000001
+Plan found!
+UNSAT found: 5
+Remaining hard cases onto from small projection (1 Iter): 0
+	Time ckecking satisfiability with D&G (Small projection, simple cases) (s): 1.335
+
+
+ALL ONTOLOGY
+-------------------------
+TAX clause num: 32874
+Equiv clause num: 32874
+D&G DISJ clause num: 33051
+D&G general axioms clause num: 35918
+D&G mappings clause num: 43351
+D&G mapping links: 7433  5
+D&G mappings clause num: 43351
+D&G mapping links: 0  5
+UNSAT found: 0
+Remaining hard cases all onto (1 Iter): 0
+	Time ckecking satisfiability with D&G (Big projection, simple cases) (s): 2.057
+
+DISCARDED MAPPINGS: 2 - 
+WEAKENED MAPPINGS: 1 - 1
+Clauses 2 ignore: 5
+
+Average mappings per conflict: 4.0
+Max mappings per conflict: 7
+Min mappings per conflict: 3
+Average size of repair: 1.0
+Max size of repair: 1
+Min size of repair: 1
+Average mappings in repair: 1.0
+Max mappings per repair: 1
+Min mappings per repair: 1
+Time cleaning anchors D&G (s): 3.395
+
+Num Anchors: 3716
+
+Original entries DirectSubclasses: 24227
+Original entries DirectSubclasses: 24227
+Adapted entries DirectSubclasses: 20511
+Adapted entries DirectSubclasses: 24227
+Representatives from Mappings: 3716
+Mapping entries (sub mappings): 7432
+Fixed 2 cycle(s)
+Classes with wrong/negative preorder (-1 or -d): 0
+Classes with wrong/negative descendants intervals (<-1,-1> or <-id,-id>): 0
+Time Getting Disjoint Intervals (merged) (s): 0.057
+There are non unsatisfiable clases (non-empty intersection of disjoint intervals))
+Time indexing hierarchy + anchors (ILS) (s): 0.926
+
+CANDIDATE DIAGNOSIS 1
+assessAnchors2Review()
+createCandidates4StemmingLikeAnchors()
+EMPTY SET IN STEMMING IF: 5 - 1
+High ambiguity stemming: 26
+Candidates STEMING: 5364
+createCandidates4WeakAnchors()
+createMappings2AskUser()
+Second chance to discarded mappings.
+Time creating candidates (s): 4.725
+
+
+COUNT SAT ALL ONTOLOGY
+-------------------------
+TAX clause num: 32874
+Equiv clause num: 32878
+D&G DISJ clause num: 33055
+D&G general axioms clause num: 35922
+D&G mappings clause num: 36698
+D&G mapping links: 776  0
+D&G mappings clause num: 44130
+D&G mapping links: 7432  0
+	UNSATifiabilities found with Dowling and Gallier (approximation): 8
+14304 <- 23170 (0) (36186), conflict: 8
+10032 -> 18772 (0) (36641), conflict: 1
+10032 <- 18772 (0) (36078), conflict: 7
+Time checking satisfiability D&G (s): 2.201
+
+
+SMALL PROJECTION
+-------------------------
+Size projection: 10274
+TAX clause num: 23200
+Equiv clause num: 23204
+D&G DISJ clause num: 23381
+D&G general axioms clause num: 26248
+D&G mappings clause num: 27024
+D&G mapping links: 776  0
+D&G mappings clause num: 34456
+D&G mapping links: 7432  0
+UNSAT found: 0
+Remaining hard cases onto from small projection (1 Iter): 0
+	Time ckecking satisfiability with D&G (Small projection, simple cases) (s): 1.126
+
+
+ALL ONTOLOGY
+-------------------------
+TAX clause num: 32874
+Equiv clause num: 32878
+D&G DISJ clause num: 33055
+D&G general axioms clause num: 35922
+D&G mappings clause num: 36698
+D&G mapping links: 776  0
+D&G mappings clause num: 44130
+D&G mapping links: 7432  0
+PLANS of size 1 for entity 18772: 2
+Evaluating plan of size: 1, conflict: 8, confidence: 0.6605400271370421
+Plan found!
+UNSAT found: 1
+Remaining hard cases all onto (1 Iter): 0
+	Time ckecking satisfiability with D&G (Big projection, simple cases) (s): 1.882
+
+DISCARDED MAPPINGS: 1 - 
+WEAKENED MAPPINGS: -1 - 1
+Clauses 2 ignore: 1
+
+Average mappings per conflict: 2.0
+Max mappings per conflict: 2
+Min mappings per conflict: 2
+Average size of repair: 1.0
+Max size of repair: 1
+Min size of repair: 1
+Average mappings in repair: 1.0
+Max mappings per repair: 1
+Min mappings per repair: 1
+Time cleaning new candidates D&G (s): 3.008
+
+Num Anchors: 4104
+
+Original entries DirectSubclasses: 24227
+Original entries DirectSubclasses: 24227
+Adapted entries DirectSubclasses: 20123
+Adapted entries DirectSubclasses: 24227
+Representatives from Mappings: 4104
+Mapping entries (sub mappings): 8207
+Fixed 2 cycle(s)
+Classes with wrong/negative preorder (-1 or -d): 0
+Classes with wrong/negative descendants intervals (<-1,-1> or <-id,-id>): 0
+Time Getting Disjoint Intervals (merged) (s): 0.035
+Classes in '<1684, 1690>' are unsatisfiable
+Involved intervals: <1683, 1718>  <1684, 1690>
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	<1683, 1718>   <1684, 1690>
+Classes in '<1684, 1690>' are unsatisfiable
+Involved intervals: <1684, 1690>  <1652, 1733>
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	Preorder has not identifier
+	<1684, 1690>   <1652, 1733>
+Time indexing hierarchy + anchors and candidates I (ILS) (s): 0.745
+Assessing mappings to ask user.
+---------------------
+All Candidate mappings: 27715
+Good Candidate mappings: 0
+---------------------
+LogMap anchors: 4104
+Good LogMap anchors: 0
+Precision LogMap anchors: 0.0
+Recall LogMap anchors: NaN
+Fmeasure LogMap anchors: NaN
+---------------------
+LogMap 2 ask mappings: 856
+Good LogMap 2ask mappings: 0
+---------------------
+LogMap split mappings: 0
+Good LogMap split mappings: 0
+---------------------
+LogMap discarded mappings: 675
+Good LogMap discarded mappings: 0
+---------------------
+LogMap hard discarded mappings: 18675
+Good LogMap hard discarded mappings: 0
+---------------------
+LogMap conflictive mappings: 3406
+Good LogMap conflictive mappings: 0
+---------------------
+LogMap conflictive mappings D&G: 4
+Good LogMap conflictive mappings D&G: 0
+---------------------
+All Candidates recount: 27716
+Good Candidates recount: 0
+---------------------
+
+CANDIDATE DIAGNOSIS 2
+Oracle is not active. Performing automatic decisions.
+Second chance to mappings discarded by Dowling and Gallier.
+Mappings with second chance: 0 in GS: 0
+
+
+COUNT SAT ALL ONTOLOGY
+-------------------------
+TAX clause num: 32874
+Equiv clause num: 32878
+D&G DISJ clause num: 33055
+D&G general axioms clause num: 35922
+D&G mappings clause num: 37634
+D&G mapping links: 1712  0
+D&G mappings clause num: 45841
+D&G mapping links: 8207  0
+	UNSATifiabilities found with Dowling and Gallier (approximation): 4
+7242 -> 20106 (0) (36850), conflict: 4
+2409 <- 23604 (0) (36830), conflict: 4
+2972 <- 20351 (0) (37552), conflict: 4
+13265 <- 16401 (0) (35931), conflict: 1
+13265 -> 16401 (0) (36764), conflict: 1
+299 <- 21661 (0) (36906), conflict: 4
+2409 -> 23302 (0) (36266), conflict: 4
+13265 <- 22194 (0) (37436), conflict: 1
+13265 -> 22194 (0) (36765), conflict: 3
+10067 -> 16798 (0) (37522), conflict: 4
+13265 -> 22366 (0) (36766), conflict: 3
+13265 <- 22366 (0) (37529), conflict: 1
+2519 <- 23604 (0) (36829), conflict: 4
+Time checking satisfiability D&G (s): 2.173
+
+
+SMALL PROJECTION
+-------------------------
+Size projection: 11144
+TAX clause num: 23200
+Equiv clause num: 23204
+D&G DISJ clause num: 23381
+D&G general axioms clause num: 26248
+D&G mappings clause num: 27960
+D&G mapping links: 1712  0
+D&G mappings clause num: 36167
+D&G mapping links: 8207  0
+	2519 -> 23604 (0) (26676) without conflictness
+PLANS of size 1 for entity 16401: 10
+Evaluating plan of size: 1, conflict: 4, confidence: 0.503
+Evaluating plan of size: 1, conflict: 4, confidence: 0.538258064516129
+Evaluating plan of size: 1, conflict: 4, confidence: 0.542
+Evaluating plan of size: 1, conflict: 4, confidence: 0.546
+Evaluating plan of size: 1, conflict: 4, confidence: 0.550695652173913
+Evaluating plan of size: 1, conflict: 4, confidence: 0.6050909090909091
+Evaluating plan of size: 1, conflict: 3, confidence: 0.619
+Plan found!
+	2519 -> 23604 (0) (26676) without conflictness
+PLANS of size 1 for entity 22194: 10
+Evaluating plan of size: 1, conflict: 4, confidence: 0.503
+Evaluating plan of size: 1, conflict: 4, confidence: 0.538258064516129
+Evaluating plan of size: 1, conflict: 4, confidence: 0.542
+Evaluating plan of size: 1, conflict: 4, confidence: 0.546
+Evaluating plan of size: 1, conflict: 4, confidence: 0.550695652173913
+Evaluating plan of size: 1, conflict: 4, confidence: 0.6050909090909091
+Evaluating plan of size: 1, conflict: 3, confidence: 0.619
+Plan found!
+UNSAT found: 2
+Remaining hard cases onto from small projection (1 Iter): 0
+	Time ckecking satisfiability with D&G (Small projection, simple cases) (s): 1.405
+
+
+ALL ONTOLOGY
+-------------------------
+TAX clause num: 32874
+Equiv clause num: 32878
+D&G DISJ clause num: 33055
+D&G general axioms clause num: 35922
+D&G mappings clause num: 37632
+D&G mapping links: 1710  2
+D&G mappings clause num: 45839
+D&G mapping links: 8207  2
+UNSAT found: 0
+Remaining hard cases all onto (1 Iter): 0
+	Time ckecking satisfiability with D&G (Big projection, simple cases) (s): 2.163
+
+DISCARDED MAPPINGS: 2 - 
+WEAKENED MAPPINGS: -2 - 0
+Clauses 2 ignore: 2
+
+Average mappings per conflict: 10.0
+Max mappings per conflict: 10
+Min mappings per conflict: 10
+Average size of repair: 1.0
+Max size of repair: 1
+Min size of repair: 1
+Average mappings in repair: 1.0
+Max mappings per repair: 1
+Min mappings per repair: 1
+Time cleaning interactive mappings D&G (s): 3.569
+
+---------------------
+LogMap asked heuristics: 0
+---------------------
+
+Dirty anchors Object Prop: 1
+1.5   1.0
+	Assessing Object Property mappings: 0, to delete: 1
+Dirty anchors Data Prop: 0
+	Assessing Data Property mappings: 0, to delete: 0
+Size IF intersection exact: 0
+
+NUmber of Instance mappings exact IF: 0 - 0
+NUM INCOMPATIBLE INDIV MAPPINGS: 0
+
+Sife IF intersection weak: 0
+
+NUmber of Instance mappings exact+weak IF: 0 - 0
+NUM INCOMPATIBLE INDIV MAPPINGS: 0
+Size role assetions: 0
+
+NUmber of Instance mappings exact+weak+roleass IF: 0 - 0
+NUM INCOMPATIBLE INDIV MAPPINGS: 0
+Instances: 0
+Instances ambiguity: 0
+Instances not in output: 0
+Creating overlapping output
+Saving output mapping files
+Average time taxonomic queries: 0.0. Total: 0.05400000000000004. Num calls: 41075
+Average time disjointness queries: 1.0E-4. Total: 2.0969999999998996. Num calls: 89671
+Number of computed mappings: 4960
+LogMap 2 Total Matching Time (s): 62.071
+Evaluating impact...
+Axioms onto1: 248533
+Axioms onto2: 55687
+Mapping Axioms: 4960
+
+Classifying 'SH' Ontology with HermiT... 
+Done, Time (s): 29.755
+
+UNSAT classes: 4
+	http://purl.obolibrary.org/obo/DOID_13945
+	http://purl.obolibrary.org/obo/DOID_0111036
+	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606
+	http://purl.obolibrary.org/obo/DOID_0111035
+Time extracting unsat classes (s): 29.766
+
+Num unsat classes after integration: 4
+Time checking impact integration (s): 44.3
+Finish running logmap
+Extract class name and path.
+* Owlready2 * Warning: optimized Cython parser module 'owlready2_optimized' is not available, defaulting to slower Python implementation
+
+Warning: SQLite3 version 3.40.0 and 3.41.2 have huge performance regressions; please install version 3.41.1 or 3.42!
+

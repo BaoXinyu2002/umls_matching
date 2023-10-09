@@ -6,3 +6,6 @@ logmap-matcher/test-classes/
 disease/
 model_label/
 logmap-matcher/
+logmap_output/
+logmap.sh
+pred.out
