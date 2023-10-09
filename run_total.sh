@@ -22,28 +22,36 @@ logmap_output="logmap_output/"
 # Step1 Run the original system, you can change it to whatever you want
 echo "Run the origial logmap system"
 java -jar $logmap MATCHER file:$source_onto file:$target $logmap_output true
-# Step1 Class Name and Path Extraction: This is to extract the name information and path information for each class in an ontology. It should be executed separately for the to-be-aligned ontologies.
+echo "Finish running logmap"
+
+# Step2 Class Name and Path Extraction: This is to extract the name information and path information for each class in an ontology. It should be executed separately for the to-be-aligned ontologies.
 echo "Extract class name and path."
 python3 name_path.py --onto_file $source_onto --name_file $source_class_name --path_file $source_path
 python3 name_path.py --onto_file $target_onto --name_file $target_class_name --path_file $target_path
+echo "Finish extracting class name and path"
 
-# Step2 Sample: It outputs mappings_train.txt and mappings_valid.txt.
-echo "Sampling data."
+# Step3 Sample: It outputs mappings_train.txt and mappings_valid.txt.
+echo "Sample data."
 python3 sample.py --anchor_mapping_file $logmap_anchors --left_class_name_file $source_class_name --left_path_file $source_path --right_class_name_file $target_class_name --right_path_file $target_path --train_file $train_file --valid_file $valid_file
+echo "Finish sampling data."
 
-# Step3 Train the model
+# Step4 Train the model
 echo "Train the model."
 python3 train_valid.py --left_w2v_dir $left_w2v_dir --right_w2v_dir $right_w2v_dir --train_path_file $train_file --valid_path_file $valid_file
+echo "Finish training the model."
 
-# Step4 Predict candidates.
+# Step5 Predict candidates.
 echo "Predict candidates."
 python predict_candidates.py --candidate_file $candidate_file --left_class_name_file $source_class_name --left_path_file $source_path --right_class_name_file $target_class_name --right_path_file $target_path --left_w2v_dir $left_w2v_dir --right_w2v_dir $right_w2v_dir --prediction_out_file $prediction_out_file --nn_type SiameseMLP
+echo "Finish predicting candidates."
 
-# Step5 Map selection
-echo "Selection candidates."
+# Step6 Map selection
+echo "Select4 candidates."
 python3 map_selection.py --predict_map $prediction_out_file --selection_result $selection_result --source_prefix $source_prefix --target_prefix $target_prefix
+echo "Finish selecting candidates."
 
 # Step6 Evalution
 echo "Evalute the mapping resutls."
 
 echo '8g'|python3 real_evaluate.py --entity_mapping $selection_result --reference_mapping $reference_mapping
+echo "finish evaluting results."

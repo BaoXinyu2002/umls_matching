@@ -18,9 +18,10 @@ Our codes in this package require:
 
 
 ### Startup
-
+### Pre-process #1: Download LogMap
+Download [LogMap](https://github.com/ernestojimenezruiz/logmap-matcher), build by Maven.
  
-### Pre-process #1: Embedding Models
+### Pre-process #2: Embedding Models
 You can either use the word2vec embedding by gensim (The one trained by English Wikipedia articles in 2018 [download](https://drive.google.com/file/d/1rm9uJEKG25PJ79zxbZUWuaUroWeoWbFR/view?usp=sharing)), 
 or the ontology tailored [OWL2Vec\* embedding](https://github.com/KRR-Oxford/OWL2Vec-Star). 
 The to-be-aligned ontologies can use their own embedding models or use one common embedding model.
