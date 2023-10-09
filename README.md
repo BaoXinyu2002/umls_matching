@@ -19,7 +19,7 @@ Our codes in this package require:
 
 ### Startup
 ### Pre-process #1: Download LogMap
-Download [LogMap](https://github.com/ernestojimenezruiz/logmap-matcher), build by Maven.
+Download [LogMap](https://github.com/ernestojimenezruiz/logmap-matcher), build by Maven. Run ``mvn package``.
  
 ### Pre-process #2: Embedding Models
 You can either use the word2vec embedding by gensim (The one trained by English Wikipedia articles in 2018 [download](https://drive.google.com/file/d/1rm9uJEKG25PJ79zxbZUWuaUroWeoWbFR/view?usp=sharing)), 
