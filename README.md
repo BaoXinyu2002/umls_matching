@@ -1,10 +1,5 @@
 # LogMap-ML
 
-This folder includes the implementation of LogMap-ML introduced in the paper ****Augmenting Ontology Alignment by Semantic Embedding and Distant Supervision****.
-
-The HeLis and FoodOn ontologies, and their partial GS, which are adopted for the evaluation in the paper, are under **data/**.
-Note the HeLis ontology adopted has been pre-processed by transforming instances into classes.
-
 
 ### Dependence 
 Our codes in this package require: 
@@ -61,6 +56,8 @@ Note that the source prefix and target prefix should be the prefix of the ontolo
 Evaluate the mappings based on the reference. The reference can be the ground truth or the mappings generated from other alogrithms.
 ```python3 evaluate.py --entity_mapping mapping_result --reference_mapping reference_mapping```
 
+### Run total
+Step #1-#7 can be run by ``run_total.sh``.
 Follow the instruction in ``run_total.sh`` and edit the parameters in ``run_total.sh``.
  
 run
