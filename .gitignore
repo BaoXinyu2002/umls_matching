@@ -1,0 +1,7 @@
+logmap-matcherlogmap-log.out
+logmap-matcher.project
+logmap-matcher.settings/
+logmap-matcher/target/
+logmap-matcher/test-classes/
+disease/
+
