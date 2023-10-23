@@ -8,5 +8,12 @@ model_label/
 logmap-matcher/
 logmap_output/
 logmap.sh
+logmap1.sh
+run_total1.sh
 pred.out
+pred1.out
 data/
+anatomy/
+owl2vec/
+embedding/
+chem/
